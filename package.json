@@ -1,0 +1,27 @@
+{
+  "name": "nodecli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saumya17a/NodeCLI.git"
+  },
+  "author": "Saumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saumya17a/NodeCLI/issues"
+  },
+  "homepage": "https://github.com/Saumya17a/NodeCLI#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.5",
+    "mongoose": "^6.0.6"
+  }
+}
